@@ -1,0 +1,26 @@
+se codifica en html en un archivo js mediante la libreria react, permitiendonos crear entornos web y ademas visuales con css, aunque una version
+antigua llamada camelcase, luego todo esto al ser parte de librerias modernas que el navegador no entiende
+lo que hacemos en contenerlo o convertirlo mejor dicho
+se convierte a forma que el navegador entienda como funciona, esot se hace por medio de .babel, haciendo que se conviertan
+tanto funciones nuevas o metodos nuevos de librerias o nuevos en el lenguaje a una forma que el navegador entienda y pueda correr
+esto lo hace mediante convertir etiquetas ya sean
+h1, p, header, etc..
+en objetos que crea y al mandarlos a el navegador se convierten de nuevo en etiquetas
+
+//3/28/2025 11:14 pm 
+
+agregue la api de NASA API APOD, esta para imagenes de el cielo o del espacio y usarlas
+para dar unas vibes de innovacion, creacion, descubrimiento, aunque hay fallas al acomodar la imagen
+pero pude hacer que se mostraran diferentes cada cierto tiempo
+ademas de que cree otro archivo llamado header donde esta el encabezado
+lo tenia dentro de el index pero al hacerlo asi no funcionaba correctamente 
+y la imagen de la api opacaba a el header
+
+
+para guardar use
+git init
+git add .
+git commit -m "Primer respaldo del proyecto"
+git branch -M main
+git remote add origin https://github.com/nombrederepositiorios
+git push -u origin main
