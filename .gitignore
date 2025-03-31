@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 # Ignorar node_modules
 node_modules/
 
 
 # Ignorar APIS
 APIS/
+=======
+# Ignorar node_modules
+node_modules/
+
+
+# Ignorar APIS
+APIS/
+>>>>>>> aef59a583a51b834ad5136cf827371a5a011c633

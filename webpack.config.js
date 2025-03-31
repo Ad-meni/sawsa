@@ -1,3 +1,4 @@
+
 const path = require("path");
 //obtiene propiedades/funciones de la libreria path
 
@@ -35,5 +36,5 @@ module.exports = {
     ]
   },
   mode: "development"//con esto indicamos que incluya herramientas de apoyo y desarrollo
-  //para el codigo comtenido
-};
+  //para el codigo comtenid
+}
