@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "modules": false }],
+    //con esto se convierten caracteristicas como funcionflecha, let
+    //const y asi en funciones mas antiguas que el navegador entienda
+    //y usamos el modules false para las librerias
+    "@babel/preset-react"
+    /*transforma el codigo de react en forma que se conveirta
+    a algo que pueda usar para mostrar en el navegador, tal como
+    que crea nuevos elementos ya sea divs o h1*/
+  ]
+}
+/*Esto se usa para configuraciones, para eso es el tipo
+de archivo babelrc, este en especial lo usamos para indicar que convierta
+el codigo moderno tal como javascript, react y otros en lenguajes o a 
+una forma mas compatible con navegadores */
